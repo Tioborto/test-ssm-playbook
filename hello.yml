@@ -1,0 +1,5 @@
+- name: Test SSM Playbook
+  hosts: local
+  tasks:
+    - debug:
+        msg: "hello world"
